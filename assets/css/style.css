@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.ff-acc {
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+.accordiancontent {
+    padding: 24px 21px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.pl-150 {
+    padding-left: 150px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.ff-group {
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accordian-description {
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 468px;
+    padding-top: 12px;
+    height: 0;
+    overflow: hidden;
+    transition: all 3s linear;
+}
+
+.accordianheader {
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.active .show {
+    height: unset;
+}
+
+
+.accordianheader.active {
+    border: 1px solid #128DFF
+}
+
+.accordianheader.active div p.ff-group {
+    color: black;
+}
+
+.accordianheader.active img {
+    transform: rotate(180deg);
+}
